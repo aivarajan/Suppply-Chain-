@@ -8,7 +8,7 @@ Created on Thu Jul 27 17:26:18 2023
 import pandas as pd
 import streamlit as st 
 
-from pulp import*     
+import pulp   
 
 def predict_Y(df):
     
